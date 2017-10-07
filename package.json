@@ -17,5 +17,8 @@
     "url": "http://fantasy.codes",
     "email": "fantasyshao@icloud.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  }
 }
