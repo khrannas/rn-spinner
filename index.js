@@ -1,5 +1,6 @@
 var React = require('react')
 var ReactNative = require('react-native')
+var createReactClass = require('create-react-class');
 var styles = require('./style')
 
 import PropTypes from 'prop-types';
@@ -10,7 +11,7 @@ var {
   TouchableOpacity
 } = ReactNative
 
-var Spinner = React.createClass({
+var Spinner = createReactClass({
   propTypes: {
     min: PropTypes.number,
     max: PropTypes.number,
